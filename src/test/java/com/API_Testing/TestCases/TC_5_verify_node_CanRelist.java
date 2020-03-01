@@ -4,17 +4,17 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.API_Testing_Base.Base;
+import com.API_Testing.Base.Test_Base;
 
 
-public class TC_5_verify_node_CanRelist extends Base {
+public class TC_5_verify_node_CanRelist extends Test_Base {
 	
 	@BeforeClass
 	void TestCase_5_Start(){
 		System.out.println("*****************Test Case 5 Starts**********************");
 		
 		//init method createdin Base class to navigate to base URI and hit API request and get a response
-		Base.init();
+		Test_Base.init();
 	}
 	
 
@@ -22,13 +22,13 @@ public class TC_5_verify_node_CanRelist extends Base {
 	void verifyAcceptanceCriteria_CanRelist(){
 	
 		//This will return JsonPath Object. This object will be used to further query specific parts of the Response Json
-		jsonpath = Base.extractEntireJSONPayloadNodes();
+		jsonpath = Test_Base.extractEntireJSONPayloadNodes();
 		
 		//This will extract individual node values
-		boolean canrelist = Base.extract_boolean_Node("CanRelist");
+		boolean canrelist = Test_Base.extract_boolean_Node("CanRelist");
 		
 		//This will validate boolean node value received from response with expected value. Passing actual node value received and expected value as arguments
-		Base.verifyNodeValue_boolean(canrelist, true);
+		Test_Base.verifyNodeValue_boolean(canrelist, true);
 			
 		}	
 	

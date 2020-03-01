@@ -1,4 +1,4 @@
-package com.API_Testing_Base;
+package com.API_Testing.Base;
 
 
 import org.json.simple.JSONArray;
@@ -13,7 +13,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Base {
+public class Test_Base {
 	
 	//This Base class created so common functions and variables which we can use across test cases and can reduce code repetition
 	

@@ -4,17 +4,17 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.API_Testing_Base.Base;
+import com.API_Testing.Base.Test_Base;
 
 
-public class TC_6_verify_node_Promotions extends Base {
+public class TC_6_verify_node_Promotions extends Test_Base {
 	
 	@BeforeClass
 	void TestCase_6_Start(){
 		System.out.println("*****************Test Case 6 Starts**********************");
 		
 		//init method created in Base class to navigate to base URI and hit API request and get a response
-		Base.init();
+		Test_Base.init();
 	}
 	
 	
@@ -22,13 +22,13 @@ public class TC_6_verify_node_Promotions extends Base {
 	void verifyAcceptanceCriteria_Promotions() throws ParseException{
 				
 		//Extracting JSON response using JSONParser
-		Base.extractChild_JSONPayload("Promotions");
+		Test_Base.extractChild_JSONPayload("Promotions");
 		
 		//Extracting sub elements "Name" and "Description" from each child nodes of "Promotions" node
-		Base.findElementsinJSONResponse("Name", "Description");
+		Test_Base.findElementsinJSONResponse("Name", "Description");
 		
 		//Verifying sub element "Description" contains expected text or not
-		Base.matchingDescriptionText("2x larger image");
+		Test_Base.matchingDescriptionText("2x larger image");
 }
 	
 	@AfterClass

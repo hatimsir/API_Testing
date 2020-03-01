@@ -6,10 +6,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.API_Testing_Base.Base;
+import com.API_Testing.Base.Test_Base;
 
 
-public class TC_1_verify_Status_Code extends Base {
+public class TC_1_verify_Status_Code extends Test_Base {
 	
 	@BeforeClass
 	
@@ -19,7 +19,7 @@ public class TC_1_verify_Status_Code extends Base {
 		System.out.println("*****************Test Case 1 Starts**********************");
 		
 		//init method created in Base class to navigate to base URI and hit API request and get a response
-		Base.init();
+		Test_Base.init();
 	}
 	
 	
@@ -27,13 +27,13 @@ public class TC_1_verify_Status_Code extends Base {
 	void verifyStatusCode(){
 		
 		//Print Response in console
-		Base.printResponseOnConsole();
+		Test_Base.printResponseOnConsole();
 		
 		 //getting status code from API response
-		int statusCode = Base.getStatusCode();
+		int statusCode = Test_Base.getStatusCode();
 		
 		//Validating status code received from response is 200 or not. Passing actual status code received and expected value as arguments
-		Base.statusCodeValidation(statusCode, 200);
+		Test_Base.statusCodeValidation(statusCode, 200);
 		
 	}
 	
