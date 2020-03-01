@@ -1,6 +1,10 @@
 package com.API_Testing.Base;
 
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -17,6 +21,8 @@ public class Test_Base {
 	
 	//This Base class created so common functions and variables which we can use across test cases and can reduce code repetition
 	
+	
+	public static Properties config=null;
 	
 	public static RequestSpecification httpsrequest;
 	public static Response response;
@@ -36,11 +42,15 @@ public class Test_Base {
 	
 
 	
-	public static void init() {
+	public static void init() throws IOException {
+		
+		config = new Properties();
+		FileInputStream configfile = new FileInputStream(System.getProperty("user.dir")+"//config.properties");
+		config.load(configfile);
 		
 
 		//Specify Base URI
-		RestAssured.baseURI = "https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false";
+		RestAssured.baseURI = config.getProperty("Base_URI");
 				
 		//This will create Request Object
 		httpsrequest = RestAssured.given();

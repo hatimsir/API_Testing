@@ -1,5 +1,7 @@
 package com.API_Testing.TestCases;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,7 +12,7 @@ import com.API_Testing.Base.Test_Base;
 public class TC_5_verify_node_CanRelist extends Test_Base {
 	
 	@BeforeClass
-	void TestCase_5_Start(){
+	void TestCase_5_Start() throws IOException{
 		System.out.println("*****************Test Case 5 Starts**********************");
 		
 		//init method createdin Base class to navigate to base URI and hit API request and get a response

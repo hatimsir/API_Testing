@@ -2,6 +2,8 @@ package com.API_Testing.TestCases;
 
 
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -14,7 +16,7 @@ public class TC_1_verify_Status_Code extends Test_Base {
 	@BeforeClass
 	
 	
-	void TestCase_1_Start() {
+	void TestCase_1_Start() throws IOException {
 		
 		System.out.println("*****************Test Case 1 Starts**********************");
 		

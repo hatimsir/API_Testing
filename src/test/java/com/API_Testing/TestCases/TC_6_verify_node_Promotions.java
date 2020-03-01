@@ -1,4 +1,6 @@
 package com.API_Testing.TestCases;
+import java.io.IOException;
+
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,7 +12,7 @@ import com.API_Testing.Base.Test_Base;
 public class TC_6_verify_node_Promotions extends Test_Base {
 	
 	@BeforeClass
-	void TestCase_6_Start(){
+	void TestCase_6_Start() throws IOException{
 		System.out.println("*****************Test Case 6 Starts**********************");
 		
 		//init method created in Base class to navigate to base URI and hit API request and get a response
