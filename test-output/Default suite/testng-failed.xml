@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_1_verify_Status_Code"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_1_verify_Status_Code">
+        <methods>
+          <include name="TestCase_1_Ends"/>
+          <include name="TestCase_1_Start"/>
+          <include name="verifyStatusCode"/>
+        </methods>
+      </class> <!-- com.API_Testing.TestCases.TC_1_verify_Status_Code -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

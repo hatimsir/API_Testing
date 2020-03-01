@@ -12,15 +12,15 @@ public class TC_5_verify_node_CanRelist extends Base {
 	@BeforeClass
 	void TestCase_5_Start(){
 		System.out.println("*****************Test Case 5 Starts**********************");
+		
+		//init method createdin Base class to navigate to base URI and hit API request and get a response
+		Base.init();
 	}
 	
 
 	@Test
 	void verifyAcceptanceCriteria_CanRelist(){
-		
-		//init method createdin Base class to navigate to base URI and hit API request and get a response
-		Base.init();
-			
+	
 		//This will return JsonPath Object. This object will be used to further query specific parts of the Response Json
 		jsonpath = Base.extractEntireJSONPayloadNodes();
 		

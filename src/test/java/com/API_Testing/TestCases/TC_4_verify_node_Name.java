@@ -12,14 +12,14 @@ public class TC_4_verify_node_Name extends Base {
 	@BeforeClass
 	void TestCase_4_Start(){
 		System.out.println("*****************Test Case 4 Starts**********************");
+		
+		//init method created in Base class to navigate to base URI and hit API request and get a response
+		Base.init();
 	}
 	
 
 	@Test
 	void verifyAcceptanceCriteria_Name(){
-		
-		//init method created in Base class to navigate to base URI and hit API request and get a response
-		Base.init();
 		
 		//This will return JsonPath Object. This object will be used to further query specific parts of the Response Json
 		jsonpath = Base.extractEntireJSONPayloadNodes();

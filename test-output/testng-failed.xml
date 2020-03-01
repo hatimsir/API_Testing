@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Testing Execution Suite]">
+  <test name="Test Case 1 - Verify Status Code of API">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_1_verify_Status_Code"/>
+    </classes>
+  </test> <!-- Test Case 1 - Verify Status Code of API -->
+  <test name="Test Case 2 - Verify Status Line">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_2_verify_Status_Line"/>
+    </classes>
+  </test> <!-- Test Case 2 - Verify Status Line -->
+  <test name="Test Case 3 - Verify important Headers in response Line">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_3_verify_Headers"/>
+    </classes>
+  </test> <!-- Test Case 3 - Verify important Headers in response Line -->
+  <test name="Test Case 4 - Verify Node Name">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_4_verify_node_Name"/>
+    </classes>
+  </test> <!-- Test Case 4 - Verify Node Name -->
+  <test name="Test Case 5 - Verify Node CanRelist">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_5_verify_node_CanRelist"/>
+    </classes>
+  </test> <!-- Test Case 5 - Verify Node CanRelist -->
+  <test name="Test Case 6 - Verify Node Promotions">
+    <classes>
+      <class name="com.API_Testing.TestCases.TC_6_verify_node_Promotions"/>
+    </classes>
+  </test> <!-- Test Case 6 - Verify Node Promotions -->
+</suite> <!-- Failed suite [API Testing Execution Suite] -->

@@ -12,15 +12,13 @@ public class TC_3_verify_Headers extends Base {
 	@BeforeClass
 	void TestCase_3_Start(){
 		System.out.println("*****************Test Case 3 Starts**********************");
+		
+		//init method created in Base class to navigate to base URI and hit API request and get a response
+		Base.init();
 	}
-	
 
 	@Test
 	void verifyHeaders(){
-		
-	//init method created in Base class to navigate to base URI and hit API request and get a response
-	Base.init();	
-		
 		
 	//Validation of important Headers from response
 		

@@ -1,6 +1,7 @@
 package com.API_Testing.TestCases;
 
 
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -11,16 +12,19 @@ import com.API_Testing_Base.Base;
 public class TC_1_verify_Status_Code extends Base {
 	
 	@BeforeClass
-	void TestCase_1_Start(){
+	
+	
+	void TestCase_1_Start() {
+		
 		System.out.println("*****************Test Case 1 Starts**********************");
+		
+		//init method created in Base class to navigate to base URI and hit API request and get a response
+		Base.init();
 	}
 	
 	
 	@Test
 	void verifyStatusCode(){
-		
-		//init method created in Base class to navigate to base URI and hit API request and get a response
-		Base.init();
 		
 		//Print Response in console
 		Base.printResponseOnConsole();

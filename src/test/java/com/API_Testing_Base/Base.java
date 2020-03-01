@@ -1,5 +1,6 @@
 package com.API_Testing_Base;
 
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -13,6 +14,9 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class Base {
+	
+	//This Base class created so common functions and variables which we can use across test cases and can reduce code repetition
+	
 	
 	public static RequestSpecification httpsrequest;
 	public static Response response;
@@ -30,17 +34,18 @@ public class Base {
 	public static JSONObject promotions;
 	
 	
+
 	
-	
-	
-	public static void init(){
+	public static void init() {
+		
+
 		//Specify Base URI
 		RestAssured.baseURI = "https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false";
 				
 		//This will create Request Object
 		httpsrequest = RestAssured.given();
 				
-		//Response Object
+		//Response Object - store the response in response object
 		response = httpsrequest.request(Method.GET);
 	}
 	

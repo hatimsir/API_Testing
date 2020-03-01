@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Testing Execution Suite" duration-ms="14540" started-at="2020-03-01T17:06:12Z" finished-at="2020-03-01T17:06:26Z">
+    <groups>
+    </groups>
+    <test name="Test Case 1 - Verify Status Code of API" duration-ms="5217" started-at="2020-03-01T17:06:12Z" finished-at="2020-03-01T17:06:17Z">
+      <class name="com.API_Testing.TestCases.TC_1_verify_Status_Code">
+        <test-method status="PASS" signature="TestCase_1_Start()[pri:0, instance:com.API_Testing.TestCases.TC_1_verify_Status_Code@35851384]" name="TestCase_1_Start" is-config="true" duration-ms="5112" started-at="2020-03-01T22:36:12Z" finished-at="2020-03-01T22:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_1_Start -->
+        <test-method status="PASS" signature="verifyStatusCode()[pri:0, instance:com.API_Testing.TestCases.TC_1_verify_Status_Code@35851384]" name="verifyStatusCode" duration-ms="59" started-at="2020-03-01T22:36:17Z" finished-at="2020-03-01T22:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method status="PASS" signature="TestCase_1_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_1_verify_Status_Code@35851384]" name="TestCase_1_Ends" is-config="true" duration-ms="2" started-at="2020-03-01T22:36:17Z" finished-at="2020-03-01T22:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_1_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_1_verify_Status_Code -->
+    </test> <!-- Test Case 1 - Verify Status Code of API -->
+    <test name="Test Case 2 - Verify Status Line" duration-ms="1670" started-at="2020-03-01T17:06:17Z" finished-at="2020-03-01T17:06:19Z">
+      <class name="com.API_Testing.TestCases.TC_2_verify_Status_Line">
+        <test-method status="PASS" signature="TestCase_2_Start()[pri:0, instance:com.API_Testing.TestCases.TC_2_verify_Status_Line@c818063]" name="TestCase_2_Start" is-config="true" duration-ms="1658" started-at="2020-03-01T22:36:17Z" finished-at="2020-03-01T22:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_2_Start -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:0, instance:com.API_Testing.TestCases.TC_2_verify_Status_Line@c818063]" name="verifyStatusLine" duration-ms="3" started-at="2020-03-01T22:36:19Z" finished-at="2020-03-01T22:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="TestCase_2_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_2_verify_Status_Line@c818063]" name="TestCase_2_Ends" is-config="true" duration-ms="0" started-at="2020-03-01T22:36:19Z" finished-at="2020-03-01T22:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_2_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_2_verify_Status_Line -->
+    </test> <!-- Test Case 2 - Verify Status Line -->
+    <test name="Test Case 3 - Verify important Headers in response Line" duration-ms="1536" started-at="2020-03-01T17:06:19Z" finished-at="2020-03-01T17:06:20Z">
+      <class name="com.API_Testing.TestCases.TC_3_verify_Headers">
+        <test-method status="PASS" signature="TestCase_3_Start()[pri:0, instance:com.API_Testing.TestCases.TC_3_verify_Headers@3cb5cdba]" name="TestCase_3_Start" is-config="true" duration-ms="1528" started-at="2020-03-01T22:36:19Z" finished-at="2020-03-01T22:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_3_Start -->
+        <test-method status="PASS" signature="verifyHeaders()[pri:0, instance:com.API_Testing.TestCases.TC_3_verify_Headers@3cb5cdba]" name="verifyHeaders" duration-ms="2" started-at="2020-03-01T22:36:20Z" finished-at="2020-03-01T22:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="TestCase_3_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_3_verify_Headers@3cb5cdba]" name="TestCase_3_Ends" is-config="true" duration-ms="3" started-at="2020-03-01T22:36:20Z" finished-at="2020-03-01T22:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_3_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_3_verify_Headers -->
+    </test> <!-- Test Case 3 - Verify important Headers in response Line -->
+    <test name="Test Case 4 - Verify Node Name" duration-ms="2615" started-at="2020-03-01T17:06:20Z" finished-at="2020-03-01T17:06:23Z">
+      <class name="com.API_Testing.TestCases.TC_4_verify_node_Name">
+        <test-method status="PASS" signature="TestCase_4_Start()[pri:0, instance:com.API_Testing.TestCases.TC_4_verify_node_Name@6bdf28bb]" name="TestCase_4_Start" is-config="true" duration-ms="1752" started-at="2020-03-01T22:36:20Z" finished-at="2020-03-01T22:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_4_Start -->
+        <test-method status="PASS" signature="verifyAcceptanceCriteria_Name()[pri:0, instance:com.API_Testing.TestCases.TC_4_verify_node_Name@6bdf28bb]" name="verifyAcceptanceCriteria_Name" duration-ms="850" started-at="2020-03-01T22:36:22Z" finished-at="2020-03-01T22:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptanceCriteria_Name -->
+        <test-method status="PASS" signature="TestCase_4_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_4_verify_node_Name@6bdf28bb]" name="TestCase_4_Ends" is-config="true" duration-ms="1" started-at="2020-03-01T22:36:23Z" finished-at="2020-03-01T22:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_4_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_4_verify_node_Name -->
+    </test> <!-- Test Case 4 - Verify Node Name -->
+    <test name="Test Case 5 - Verify Node CanRelist" duration-ms="1715" started-at="2020-03-01T17:06:23Z" finished-at="2020-03-01T17:06:25Z">
+      <class name="com.API_Testing.TestCases.TC_5_verify_node_CanRelist">
+        <test-method status="PASS" signature="TestCase_5_Start()[pri:0, instance:com.API_Testing.TestCases.TC_5_verify_node_CanRelist@1d251891]" name="TestCase_5_Start" is-config="true" duration-ms="1669" started-at="2020-03-01T22:36:23Z" finished-at="2020-03-01T22:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_5_Start -->
+        <test-method status="PASS" signature="verifyAcceptanceCriteria_CanRelist()[pri:0, instance:com.API_Testing.TestCases.TC_5_verify_node_CanRelist@1d251891]" name="verifyAcceptanceCriteria_CanRelist" duration-ms="43" started-at="2020-03-01T22:36:25Z" finished-at="2020-03-01T22:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptanceCriteria_CanRelist -->
+        <test-method status="PASS" signature="TestCase_5_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_5_verify_node_CanRelist@1d251891]" name="TestCase_5_Ends" is-config="true" duration-ms="1" started-at="2020-03-01T22:36:25Z" finished-at="2020-03-01T22:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_5_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_5_verify_node_CanRelist -->
+    </test> <!-- Test Case 5 - Verify Node CanRelist -->
+    <test name="Test Case 6 - Verify Node Promotions" duration-ms="1687" started-at="2020-03-01T17:06:25Z" finished-at="2020-03-01T17:06:26Z">
+      <class name="com.API_Testing.TestCases.TC_6_verify_node_Promotions">
+        <test-method status="PASS" signature="TestCase_6_Start()[pri:0, instance:com.API_Testing.TestCases.TC_6_verify_node_Promotions@5594a1b5]" name="TestCase_6_Start" is-config="true" duration-ms="1668" started-at="2020-03-01T22:36:25Z" finished-at="2020-03-01T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_6_Start -->
+        <test-method status="PASS" signature="verifyAcceptanceCriteria_Promotions()[pri:0, instance:com.API_Testing.TestCases.TC_6_verify_node_Promotions@5594a1b5]" name="verifyAcceptanceCriteria_Promotions" duration-ms="16" started-at="2020-03-01T22:36:26Z" finished-at="2020-03-01T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptanceCriteria_Promotions -->
+        <test-method status="PASS" signature="TestCase_6_Ends()[pri:0, instance:com.API_Testing.TestCases.TC_6_verify_node_Promotions@5594a1b5]" name="TestCase_6_Ends" is-config="true" duration-ms="0" started-at="2020-03-01T22:36:26Z" finished-at="2020-03-01T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_6_Ends -->
+      </class> <!-- com.API_Testing.TestCases.TC_6_verify_node_Promotions -->
+    </test> <!-- Test Case 6 - Verify Node Promotions -->
+  </suite> <!-- API Testing Execution Suite -->
+</testng-results>

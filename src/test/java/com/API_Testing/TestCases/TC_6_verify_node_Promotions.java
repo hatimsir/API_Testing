@@ -12,14 +12,14 @@ public class TC_6_verify_node_Promotions extends Base {
 	@BeforeClass
 	void TestCase_6_Start(){
 		System.out.println("*****************Test Case 6 Starts**********************");
+		
+		//init method created in Base class to navigate to base URI and hit API request and get a response
+		Base.init();
 	}
 	
 	
 	@Test
 	void verifyAcceptanceCriteria_Promotions() throws ParseException{
-		
-		//init method created in Base class to navigate to base URI and hit API request and get a response
-		Base.init();
 				
 		//Extracting JSON response using JSONParser
 		Base.extractChild_JSONPayload("Promotions");
