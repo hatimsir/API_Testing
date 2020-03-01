@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Testing Execution Suite" >
+
+
+
+<test name="Test Case 1 - Verify Status Code of API">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_1_verify_Status_Code" ></class>  
+    </classes>
+</test>
+
+<test name="Test Case 2 - Verify Status Line">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_2_verify_Status_Line" ></class>  
+    </classes>
+</test>
+
+<test name="Test Case 3 - Verify important Headers in response Line">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_3_verify_Headers" ></class>  
+    </classes>
+</test>
+
+<test name="Test Case 4 - Verify Node Name">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_4_verify_node_Name" ></class>  
+    </classes>
+</test>
+
+<test name="Test Case 5 - Verify Node CanRelist">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_5_verify_node_CanRelist" ></class>  
+    </classes>
+</test>
+
+<test name="Test Case 6 - Verify Node Promotions">
+    <classes>
+        <class name="com.API_Testing.TestCases.TC_6_verify_node_Promotions" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+
